@@ -1,0 +1,9 @@
+# デプロイ対象外（フロー書 §2・§8 準拠）
+_rough/
+_build/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

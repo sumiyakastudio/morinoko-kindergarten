@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="もりのこ幼稚園">
+  <rect width="64" height="64" rx="16" fill="#1a3c2a"/>
+  <path d="M32 12C22.5 16 14 23.5 14 35c0 9 6.8 15 18 15V12z" fill="#52b788"/>
+  <path d="M32 12c9.5 4 18 11.5 18 23 0 9-6.8 15-18 15V12z" fill="#2d6a4f"/>
+  <path d="M32 18v28" fill="none" stroke="#fefae0" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
