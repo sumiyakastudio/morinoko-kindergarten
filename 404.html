@@ -5,34 +5,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>ページが見つかりません ｜ もりのこ幼稚園</title>
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#1a3c2a">
+<meta name="theme-color" content="#082622">
 <link rel="icon" href="/morinoko-kindergarten/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 body{
-  font-family:'Noto Sans JP',sans-serif;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;text-align:center;padding:40px 24px;color:#2b2b2b;
-  background:linear-gradient(180deg,#d8f3dc 0%,#fefae0 100%);
+  font-family:'M PLUS Rounded 1c',sans-serif;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;padding:40px 24px;color:#f7f6ee;position:relative;overflow:hidden;
+  background:radial-gradient(120% 100% at 60% 0%,#13473b 0%,#082622 62%);
 }
-.leaf{width:64px;height:64px;margin-bottom:26px}
-.code{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(4rem,16vw,7rem);color:#52b788;line-height:1;margin-bottom:8px}
-h1{font-family:'Noto Serif JP',serif;font-size:clamp(1.2rem,3.5vw,1.7rem);color:#1a3c2a;font-weight:700;margin-bottom:18px}
-p{font-size:.9rem;color:#6b7280;line-height:2;max-width:460px;margin:0 auto 34px}
-.btn{display:inline-flex;align-items:center;gap:8px;background:#2d6a4f;color:#fff;padding:15px 38px;border-radius:60px;font-size:.85rem;font-weight:600;transition:all .35s;box-shadow:0 8px 22px rgba(45,106,79,.22)}
-.btn:hover{background:#1a3c2a;transform:translateY(-2px)}
-.btn svg{width:1em;height:1em}
-.sub-links{margin-top:24px;font-size:.8rem}
-.sub-links a{color:#2d6a4f;text-decoration:underline;margin:0 10px}
+body::before{content:"";position:absolute;width:220px;height:220px;border-radius:50%;background:#ff5d86;opacity:.13;top:8%;right:10%}
+body::after{content:"";position:absolute;width:150px;height:150px;border-radius:50%;background:#ffc63b;opacity:.14;bottom:12%;left:12%}
+.mascot{width:96px;height:104px;margin-bottom:22px;position:relative;z-index:2}
+.code{font-family:'Fredoka',sans-serif;font-weight:700;font-size:clamp(4.5rem,18vw,8rem);line-height:.9;margin-bottom:10px;position:relative;z-index:2}
+.code .a{color:#ffc63b}.code .b{color:#ff5d86}.code .c{color:#33dcdc}
+h1{font-size:clamp(1.2rem,3.5vw,1.7rem);color:#f7f6ee;font-weight:800;margin-bottom:16px;position:relative;z-index:2}
+p.lead{font-size:.94rem;color:#a9ccc0;line-height:2;max-width:480px;margin:0 auto 32px;position:relative;z-index:2}
+.btn{display:inline-flex;align-items:center;gap:9px;background:#ffc63b;color:#23311f;padding:15px 36px;border-radius:999px;font-size:.92rem;font-weight:800;transition:transform .25s cubic-bezier(.34,1.4,.5,1),box-shadow .25s;box-shadow:0 6px 0 #c79516;position:relative;z-index:2}
+.btn:hover{transform:translateY(-3px);box-shadow:0 9px 0 #c79516}
+.btn svg{width:1.05em;height:1.05em}
+.sub-links{margin-top:26px;font-size:.84rem;position:relative;z-index:2}
+.sub-links a{color:#a9ccc0;margin:0 12px;font-weight:700;border-bottom:2px solid rgba(255,255,255,.2);padding-bottom:2px}
+.sub-links a:hover{color:#ffc63b;border-color:#ffc63b}
+a{text-decoration:none}
 </style>
 </head>
 <body>
-  <svg class="leaf" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1a3c2a"/><path d="M32 12C22.5 16 14 23.5 14 35c0 9 6.8 15 18 15V12z" fill="#52b788"/><path d="M32 12c9.5 4 18 11.5 18 23 0 9-6.8 15-18 15V12z" fill="#2d6a4f"/><path d="M32 18v28" fill="none" stroke="#fefae0" stroke-width="2.4" stroke-linecap="round"/></svg>
-  <p class="code">404</p>
+  <svg class="mascot" viewBox="0 0 100 112" fill="none" aria-hidden="true"><path d="M50 28V10" stroke="#36d99c" stroke-width="5" stroke-linecap="round"/><circle cx="50" cy="9" r="8" fill="#ffc63b"/><ellipse cx="50" cy="68" rx="40" ry="40" fill="#33dcdc"/><circle cx="40" cy="66" r="6" fill="#0c2a2a"/><circle cx="62" cy="66" r="6" fill="#0c2a2a"/><path d="M42 84q8 5 16 0" stroke="#0c2a2a" stroke-width="3.2" stroke-linecap="round"/></svg>
+  <p class="code"><span class="a">4</span><span class="b">0</span><span class="c">4</span></p>
   <h1>ページが見つかりませんでした</h1>
-  <p>お探しのページは、移動または削除された可能性があります。<br>お手数ですが、トップページからお探しください。</p>
+  <p class="lead">お探しのページは、移動または削除された可能性があります。<br>お手数ですが、トップページからお探しください。</p>
   <a href="/morinoko-kindergarten/" class="btn">トップページへ戻る <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
   <div class="sub-links">
     <a href="/morinoko-kindergarten/about.html">園について</a>
