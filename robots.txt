@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sumiyakaa.github.io/morinoko-kindergarten/sitemap.xml
+Sitemap: https://sumiyakastudio.github.io/morinoko-kindergarten/sitemap.xml
